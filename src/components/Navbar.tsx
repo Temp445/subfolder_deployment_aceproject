@@ -54,7 +54,7 @@ const Navbar: FC = () => {
 
         <div className="hidden md:flex items-center space-x-2">
           <Link
-            href="#features"
+            href="/#features"
             className="flex items-center text-[#2b2d42]  border border-white  text-base font-semibold relative px-4 py-2 rounded-full transition-all duration-300 ease-in-out hover:border hover:border-[#2b2d42]  hover:scale-105"
           >
             <Star className="w-4 h-4 mr-2" />
@@ -62,7 +62,7 @@ const Navbar: FC = () => {
           </Link>
 
           <Link
-            href="#pricing"
+            href="/#pricing"
             className="flex items-center text-[#2b2d42]  border border-white   text-base font-semibold relative px-4 py-2 rounded-full transition-all duration-300 ease-in-out hover:border hover:border-[#2b2d42]  hover:scale-105"
           >
             <DollarSign className="w-4 h-4 mr-2" />
@@ -70,7 +70,7 @@ const Navbar: FC = () => {
           </Link>
 
           <Link
-            href="#contact"
+            href="/#contact"
             className="flex items-center text-[#2b2d42] border border-white  text-base font-semibold relative px-4 py-2 rounded-full transition-all duration-300 ease-in-out hover:border hover:border-[#2b2d42]  hover:scale-105"
           >
             <FileText className="w-4 h-4 mr-2" />
@@ -78,7 +78,7 @@ const Navbar: FC = () => {
           </Link>
 
           <Link
-            href="#client"
+            href="/#client"
             className="md:hidden lg:flex items-center text-[#2b2d42]  border border-white   text-base font-semibold relative px-4 py-2 rounded-full transition-all duration-300 ease-in-out hover:border hover:border-[#2b2d42] hover:scale-105"
           >
             <Users className="w-4 h-4 mr-2" />
@@ -98,7 +98,7 @@ const Navbar: FC = () => {
                 {t('Home')}
               </Link>
               <Link
-                href="#features"
+                href="/#features"
                 onClick={() => setIsMenuOpen(false)}
                 className="flex items-center text-gray-800 hover:text-orange-600 text-base font-semibold"
               >
@@ -107,7 +107,7 @@ const Navbar: FC = () => {
               </Link>
 
               <Link
-                href="#pricing"
+                href="/#pricing"
                 onClick={() => setIsMenuOpen(false)}
                 className="flex items-center text-gray-800 hover:text-orange-600 text-base font-semibold"
               >
@@ -116,7 +116,7 @@ const Navbar: FC = () => {
               </Link>
 
               <Link
-                href="#contact"
+                href="/#contact"
                 onClick={() => setIsMenuOpen(false)}
                 className="flex items-center text-gray-800 hover:text-orange-600 text-base font-semibold"
               >
@@ -125,7 +125,7 @@ const Navbar: FC = () => {
               </Link>
 
               <Link
-                href="#client"
+                href="/#client"
                 onClick={() => setIsMenuOpen(false)}
                 className="flex items-center text-gray-800 hover:text-orange-600 text-base font-semibold"
               >
@@ -175,7 +175,7 @@ const Navbar: FC = () => {
         </Link>
 
         <Link
-          href="#contact"
+          href="/#contact"
           className="flex flex-col items-center justify-center text-gray-600"
         >
           <div className="w-12 h-12  bg-gradient-to-r from-blue-500 to-blue-400 flex items-center justify-center">

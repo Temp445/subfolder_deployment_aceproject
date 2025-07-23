@@ -46,7 +46,7 @@ const NotificationButton = () => {
     <div className="fixed top-[50%] right-0 z-[200]">
       <div className="group flex items-center bg-gradient-to-tr from-sky-500 to-sky-600 text-white py-2 px-2 rounded-l-lg shadow-lg space-x-2 relative">
         <Link
-          href="#contact"
+          href="/#contact"
           className="bg-white text-black rounded  px-3 py-1 text-sm font-semibold flex items-center gap-1"
         >
           {t('button')} <FaCalendarDays className="animate-bounce" />

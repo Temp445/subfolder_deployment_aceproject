@@ -112,7 +112,7 @@ const Hero = () => {
 
                 <div className="pt-4 flex gap-5 mx-auto justify-evenly md:justify-center lg:justify-start">
                   <div>
-                    <Link href="#contact" className="group inline-flex items-center gap-3 px-4 py-2  md:px-8 md:py-2 lg:px-6 2xl:py-3 bg-gray-800  text-white md:text-lg font-bold rounded  hover:shadow-2xl">
+                    <Link href="/#contact" className="group inline-flex items-center gap-3 px-4 py-2  md:px-8 md:py-2 lg:px-6 2xl:py-3 bg-gray-800  text-white md:text-lg font-bold rounded  hover:shadow-2xl">
                       <span>{t('Buttons.Contact')}</span>
                       <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />

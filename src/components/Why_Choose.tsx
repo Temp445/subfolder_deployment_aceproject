@@ -79,7 +79,7 @@ const Why_Choose = () => {
             </div>
 
             <div className='w-[130px] md:w-36'>
-              <Link href="#features" className=" text-sm  mt-6 bg-[#077A7D] text-white font-medium py-2 px-2 gap-3 md:py-2 md:px-3 rounded shadow-md transition-colors duration-300  flex items-center md:gap-5">
+              <Link href="/#features" className=" text-sm  mt-6 bg-[#077A7D] text-white font-medium py-2 px-2 gap-3 md:py-2 md:px-3 rounded shadow-md transition-colors duration-300  flex items-center md:gap-5">
                 {t('LearnMore')}
                 <MoveRight size={20} />
               </Link>

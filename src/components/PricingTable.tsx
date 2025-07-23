@@ -95,7 +95,7 @@ const PricingTable: React.FC = () => {
       displayname: t('Plans.name3'),
       desc: t('Plans.desc3'),
       buttonText: t('Plans.button3'),
-      buttonlink: '#contact',
+      buttonlink: '/#contact',
       buttonClass: 'bg-none border text-gray-800 hover:bg-[#077A7D] hover:text-white',
       highlighted: false,
       tag: t('Plans.tag3'),

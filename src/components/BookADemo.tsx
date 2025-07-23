@@ -13,7 +13,7 @@ const BookADemo = () => {
             <p className="text-gray-200 mb-10 ">
               {t('Description')}
             </p>
-            <Link href='#contact' className="border text-white px-8 py-3 hover:bg-white hover:text-gray-800 hover:border-white  rounded font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+            <Link href='/#contact' className="border text-white px-8 py-3 hover:bg-white hover:text-gray-800 hover:border-white  rounded font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
               {t('bookDemo')}
             </Link>
           </div>
