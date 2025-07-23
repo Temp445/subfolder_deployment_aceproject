@@ -7,8 +7,8 @@ import { useTranslations } from "next-intl";
 const Clients: React.FC = () => {
   const t = useTranslations("Advantages");
 
-  // Generate image paths as strings
-  const logos: string[] = Array.from({ length: 30 }, (_, i) => `/aceProject/ClientImages/image-${i}.png`);
+  
+  const logos: string[] = Array.from({ length: 30 }, (_, i) => `/aceproject/ClientImages/image-${i}.png`);
 
   const half = Math.ceil(logos.length / 2);
   const firstHalf = logos.slice(0, half);

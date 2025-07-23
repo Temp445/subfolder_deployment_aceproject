@@ -31,7 +31,7 @@ const Why_Choose = () => {
 
                 <div className="mx-auto  relative mt-5 rounded bg-white shadow-xl ">
                   <Image
-                    src="/aceProject/img-1.png"
+                    src="/aceproject/img-1.png"
                     alt="ACE CMS"
                     className="object-contain w-full h-full p-5"
                     width={100}

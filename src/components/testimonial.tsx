@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
@@ -29,9 +29,10 @@ export default function TestimonialCarousel() {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
-  const nextTestimonial = () => {
-    setCurrentTestimonial((prev) => (prev + 1) % testimonials.length);
-  };
+const nextTestimonial = useCallback(() => {
+  setCurrentTestimonial((prev) => (prev + 1) % testimonials.length);
+}, [testimonials.length]);
+
 
   const prevTestimonial = () => {
     setCurrentTestimonial((prev) => (prev === 0 ? testimonials.length - 1 : prev - 1));

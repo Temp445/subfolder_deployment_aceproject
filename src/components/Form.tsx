@@ -8,6 +8,7 @@ import { sendWhatsappMessage } from "../services/whatsapp/whatsappService";
 
 import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
 import 'react-phone-number-input/style.css';
+import icon from "@/assets/CF.jpg";
 import { PageTracker } from "./PageTracker";
 import { useTranslations } from "next-intl";
 import { CountryCode } from 'libphonenumber-js';
@@ -237,7 +238,7 @@ const Form: React.FC = () => {
         <div className="mt-20 md:mt-0 md:w-5/12 bg-[#077A7D] border border-e-[#2b2d42] border-y-[#2b2d42] border-l-[#2b2d42] md:border-l-0 text-white rounded md:rounded-r-sm md:rounded-l-none">
           <div className="h-48 relative overflow-hidden">
             <div className="absolute inset-0 bg-blue-50 bg-opacity-20 flex flex-col items-center justify-center">
-              <Image fill src="/aceProject/CF.jpg" alt="bg" className="object-cover object-center opacity-50" />
+              <Image fill src={icon} alt="bg" className="object-cover object-center opacity-50" />
               <div className="z-40 text-center">
                 <h1 className="text-[#2b2d42] font-bold">AceProject</h1>
                 <h3 className="text-2xl font-bold text-[#2b2d42]">{t('ContactInfo.Title')}</h3>

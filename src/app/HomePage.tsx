@@ -26,7 +26,7 @@ const HomePage = () => {
      <div className='container mx-auto'><Navbar1/> </div>
     <div className='container mx-auto absolute md:hidden'><Navbar/></div>
     <Hero/>
-    {/* <Why_Choose/>
+    <Why_Choose/>
     <Advantages/>
     <Clients/>
     <Features/>
@@ -36,7 +36,7 @@ const HomePage = () => {
     <Form/>
     <Footer/>
     <BackToTop/>
-    <NotificationButton/> */}
+    <NotificationButton/>
     </div>
   )
 }

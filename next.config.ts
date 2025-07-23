@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 import createNextIntlPlugin from 'next-intl/plugin';
 
 const nextConfig: NextConfig = {
+  basePath: '/web-development',
+  assetPrefix: '/web-development',
+  trailingSlash: true,
     images: {
         remotePatterns: [
             {

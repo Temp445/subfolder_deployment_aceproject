@@ -41,7 +41,7 @@ const Hero = () => {
                     <div className="lg:col-span-1 hidden  md:block">
                       <div className="relative h-full bg-white/10 rounded md:rounded-xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
                         <Image
-                          src="/aceProject/AP2.jpg"
+                          src="/aceproject/AP2.jpg"
                           alt="image"
                           className="w-full h-full object-cover rounded-xl shadow-lg"
                           width={484}
@@ -56,7 +56,7 @@ const Hero = () => {
 
                       <div className="relative bg-white/10 rounded md:rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
                         <Image
-                          src="/aceProject/AP3.jpg"
+                          src="/aceproject/AP3.jpg"
                           alt="image"
                           className="w-full h-full object-cover rounded-lg shadow-lg"
                           width={484}
@@ -68,7 +68,7 @@ const Hero = () => {
                       <div className="md:grid  gap-1 md:gap-4 hidden">
                         <div className="relative bg-white/10 rounded md:rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
                           <Image
-                            src="/aceProject/img-3.jpg"
+                            src="/aceproject/img-3.jpg"
                             alt="image"
                             className="w-full h-80 object-center rounded-lg shadow-lg"
                             width={542}
